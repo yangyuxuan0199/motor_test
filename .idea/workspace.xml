@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="motor_test" targetName="motor_test.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-MinGW_STM" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW_STM" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfad6a5e-3b42-418c-b313-a36a2c9642b1" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/motor_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/motor.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Application/motor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bsp/bsp_can.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bsp/bsp_can.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/FreeRTOSConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/can.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/can.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/freertos.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_timebase_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f407ighx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/DebugConfig/motor_test_STM32F407IGHx.dbgconf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/JLinkLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/RTE/_motor_test/RTE_Components.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test.uvguix.Alex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test.uvoptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test.uvprojx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/can.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/can.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/can.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/cmsis_os.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/cmsis_os.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/cmsis_os.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/croutine.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/croutine.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/croutine.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/event_groups.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/event_groups.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/event_groups.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/freertos.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/freertos.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/freertos.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/gpio.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/gpio.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/gpio.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/heap_4.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/heap_4.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/heap_4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/list.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/list.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/list.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/main.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/main.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/main.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.axf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.build_log.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.lnp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test.sct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/motor_test_motor_test.dep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/port.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/port.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/port.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/queue.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/queue.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/queue.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/startup_stm32f407xx.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/startup_stm32f407xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_can.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_can.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_can.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_cortex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_cortex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_cortex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_dma.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_dma.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_dma.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_dma_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_dma_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_dma_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_exti.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_exti.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_exti.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash_ramfunc.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash_ramfunc.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_flash_ramfunc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_gpio.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_gpio.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_gpio.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_msp.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_msp.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_msp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_pwr.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_pwr.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_pwr.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_pwr_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_pwr_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_pwr_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_rcc.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_rcc.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_rcc.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_rcc_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_rcc_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_rcc_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_tim.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_tim.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_tim.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_tim_ex.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_tim_ex.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_tim_ex.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_timebase_tim.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_timebase_tim.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_hal_timebase_tim.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_it.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_it.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stm32f4xx_it.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stream_buffer.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stream_buffer.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/stream_buffer.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/system_stm32f4xx.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/system_stm32f4xx.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/system_stm32f4xx.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/tasks.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/tasks.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/tasks.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/timers.crf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/timers.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/motor_test/timers.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/startup_stm32f407xx.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MDK-ARM/startup_stm32f407xx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/croutine.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/tasks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Middlewares/Third_Party/FreeRTOS/Source/timers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F407IGHX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F407IGHX_RAM.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5e0c2a990242dca48988.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-e316be98696209b238bb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-520a38ba4a09a2b7003c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/motor_test.ioc" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW_STM" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2czjJALVQurqbDbgtaUIu9OXldb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.cidr.rtos.config",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RtosSettings">
+    <option name="rtosType" value="FreeRTOS" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="motor_test.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="motor_test" TARGET_NAME="motor_test.elf" CONFIG_NAME="Debug-MinGW_STM" RUN_TARGET_PROJECT_NAME="motor_test" RUN_TARGET_NAME="motor_test.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cfad6a5e-3b42-418c-b313-a36a2c9642b1" name="更改" comment="" />
+      <created>1709121226899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709121226899</updated>
+      <workItem from="1709121245830" duration="1269000" />
+      <workItem from="1709124139333" duration="2180000" />
+      <workItem from="1709129397287" duration="5264000" />
+      <workItem from="1709827409693" duration="568000" />
+      <workItem from="1709827993034" duration="3517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>
