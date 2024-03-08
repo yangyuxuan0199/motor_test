@@ -1,0 +1,20 @@
+CMakeFiles/motor_test.elf.dir/Core/Src/sysmem.c.obj: \
+ D:\Project\motor_test\Core\Src\sysmem.c \
+ d:\102021~1.10\arm-none-eabi\include\errno.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\errno.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\reent.h \
+ d:\102021~1.10\arm-none-eabi\include\_ansi.h \
+ d:\102021~1.10\arm-none-eabi\include\newlib.h \
+ d:\102021~1.10\arm-none-eabi\include\_newlib_version.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\config.h \
+ d:\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\features.h \
+ d:\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\_types.h \
+ d:\102021~1.10\arm-none-eabi\include\machine\_types.h \
+ d:\102021~1.10\arm-none-eabi\include\machine\_default_types.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\lock.h \
+ d:\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
+ d:\102021~1.10\arm-none-eabi\include\stdint.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
+ d:\102021~1.10\arm-none-eabi\include\sys\_stdint.h
